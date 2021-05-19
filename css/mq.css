@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .ol p li{
+      text-align: justify;
+    }
+
+     /* #tct{
+      text-align: center;
+    }  */
+    .mcq{
+      width: 90%;
+    }
+
+    .m{
+        width: 25%;
+      }
+
+     .n{
+       display: none;
+     }
+     .fixed-btn{
+       display: none;
+     }
+
+     .navbar-wrapper{
+       background: none;
+     }
+
+     .grid li{
+       width: 90%;
+       margin-left: 20px;
+       margin-right: 20px;
+     }
+  }
+
+  h3{
+    color: blue;
+  }
+p{
+  color: black;
+}
+
+  @media screen and (min-width: 768px) {
+    .topnav{
+      display: none;
+    }
+}

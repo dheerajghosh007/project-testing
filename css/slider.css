@@ -1,0 +1,65 @@
+
+.slider {
+  width: 100%  !important;
+  text-align: center  !important;
+  overflow: hidden  !important;
+}
+
+.slides {
+  display: flex  !important;
+  overflow-x: auto  !important;
+  scroll-snap-type: x mandatory  !important;
+  
+  scroll-behavior: smooth  !important;
+  -webkit-overflow-scrolling: touch  !important;
+ 
+}
+.slides::-webkit-scrollbar {
+  width: 10px  !important;
+  height: 10px  !important;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black  !important;
+  border-radius: 10px  !important;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent  !important;
+}
+.slides > div {
+  scroll-snap-align: start  !important;
+  flex-shrink: 0  !important;
+  width: 100vw  !important;
+  margin-right: 50px  !important;
+  border-radius: 10px  !important;
+  background: #eee  !important;
+  transform-origin: center center  !important;
+  transform: scale(1)  !important;
+  transition: transform 0.5s  !important;
+  position: relative  !important;
+  
+  display: flex  !important;
+  justify-content: center  !important;
+  align-items: center  !important;
+ 
+}
+
+
+
+.slider > a {
+  width: 3.5rem  !important; 
+  height: 2rem  !important;
+  background: white  !important;
+  text-decoration: none  !important;
+  align-items: center  !important;
+  justify-content: center  !important;
+  border-radius: 50%  !important;
+  margin: 0 0 0.5rem 0  !important;
+  position: relative  !important;
+}
+.slider > a:active {
+  top: 1px  !important;
+}
+.slider > a:focus {
+  background: #000  !important;
+}
+
