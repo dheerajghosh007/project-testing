@@ -1,65 +1,67 @@
 
 .slider {
-  width: 100%  !important;
-  text-align: center  !important;
-  overflow: hidden  !important;
+  width: 100%  ;
+  text-align: center  ;
+  overflow: hidden  ;
 }
 
 .slides {
-  display: flex  !important;
-  overflow-x: auto  !important;
-  scroll-snap-type: x mandatory  !important;
+  display: flex  ;
+  overflow-x: auto  ;
+  scroll-snap-type: x mandatory  ;
   
-  scroll-behavior: smooth  !important;
-  -webkit-overflow-scrolling: touch  !important;
+  scroll-behavior: smooth  ;
+  -webkit-overflow-scrolling: touch  ;
  
 }
 .slides::-webkit-scrollbar {
-  width: 10px  !important;
-  height: 10px  !important;
+  width: 10px  ;
+  height: 10px  ;
 }
 .slides::-webkit-scrollbar-thumb {
-  background: black  !important;
-  border-radius: 10px  !important;
+  background: black  ;
+  border-radius: 10px  ;
 }
 .slides::-webkit-scrollbar-track {
-  background: transparent  !important;
+  background: transparent  ;
 }
 .slides > div {
-  scroll-snap-align: start  !important;
-  flex-shrink: 0  !important;
-  width: 100vw  !important;
-  margin-right: 50px  !important;
-  border-radius: 10px  !important;
-  background: #eee  !important;
-  transform-origin: center center  !important;
-  transform: scale(1)  !important;
-  transition: transform 0.5s  !important;
-  position: relative  !important;
+  scroll-snap-align: start  ;
+  flex-shrink: 0  ;
+  width: 100vw  ;
+  margin-right: 50px  ;
+  border-radius: 10px  ;
+  background: #eee  ;
+  transform-origin: center center  ;
+  transform: scale(1)  ;
+  transition: transform 0.5s  ;
+  position: relative  ;
   
-  display: flex  !important;
-  justify-content: center  !important;
-  align-items: center  !important;
+ 
+  justify-content: center  ;
+  align-items: center  ;
  
 }
 
 
 
 .slider > a {
-  width: 3.5rem  !important; 
-  height: 2rem  !important;
-  background: white  !important;
-  text-decoration: none  !important;
-  align-items: center  !important;
-  justify-content: center  !important;
-  border-radius: 50%  !important;
-  margin: 0 0 0.5rem 0  !important;
-  position: relative  !important;
+  font-weight: bold;
+  color: blue;
+  width: 3.5rem  ; 
+  height: 2rem  ;
+  background: white  ;
+  text-decoration: none  ;
+  align-items: center  ;
+  justify-content: center  ;
+  border-radius: 50%  ;
+  margin: 0 0.5rem 0.5rem 0  ;
+  position: relative  ;
 }
 .slider > a:active {
-  top: 1px  !important;
+  top: 1px  ;
 }
 .slider > a:focus {
-  background: #000  !important;
+  background: rgb(207, 112, 57)  ;
 }
 
